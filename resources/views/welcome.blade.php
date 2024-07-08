@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
     <!-- css link here  -->
     <link rel="stylesheet" href="web/assets/plugins/css/swipper.css">
@@ -446,96 +448,37 @@
     </header>
     <!-- header area end -->
 
-    <!-- banner section start -->
-    <section class="banner-section 2xl:mx-[90px] bg-grayscales-500 rounded-bl-[20px] rounded-br-[20px] font-display relative z-10">
+    <!-- banner section start removed class in section  2xl:mx-[90px] rounded-bl-[20px] rounded-br-[20px] -->
+    <section class="banner-section bg-grayscales-500 font-display relative z-10" style="background-image:url('web/assets/images/home.jpeg');  background-size: cover;   background-repeat: no-repeat;margin-bottom:200px;" >
         <div class="swiper bannerSwiper xl:pt-20 py-6 xl:pb-28 relative z-50">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
+            <div class="swiper-wrapper" >
+
+
+                <div class="swiper-slide"  >
                     <div class="container px-3 md:px-5 flex flex-col md:flex-row items-center">
-                        <div class="md:w-1/2 w-full">
-                            <p class="text-gray-black text-sm tracking-[0.12em] mb-2">Welcome to Comforty</p>
-                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6">Best Furniture Collection for your interior.</h1>
+                        <div class="md:w-1/2 w-full" >
+                            <p class="text-gray-black text-sm tracking-[0.12em] mb-2">Welcome to connect</p>
+                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6">Advertise your products and services</h1>
                             <div>
-                                <a href="#" class="btn-primary">
-                                    <span>Shop Now</span>
-                                    <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
+                                <a href="#" class=" btn btn-primary" style="margin-bottom:80px">
+                                    <span>Discover more <i class="fa fa-arrow-right" style="font-size:12px"></i></span>
                                 </a>
                             </div>
                         </div>
                         <div class="md:w-1/2 w-full flex justify-center items-center relative">
-                            <img src="web/assets/images/all-img/chair.png" alt="">
-                            <div class="inline-block absolute top-0 right-0">
-                                <img src="web/assets/images/all-img/discount.png" alt="">
-                                <p class="absolute top-[33px] text-[#F05C52] text-4xl font-bold right-9">15%</p>
-                                <p class="absolute text-sm font-normal top-[68px] right-10">Discount</p>
-                            </div>
+                           <!--<img src="web/assets/images/all-img/chair.png" alt="">-->
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="container px-3 md:px-5 flex flex-col md:flex-row items-center">
-                        <div class="md:w-1/2 w-full">
-                            <p class="text-gray-black text-sm tracking-[0.12em] mb-2">Welcome to chairy</p>
-                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6">Best Furniture Collection for your interior.</h1>
-                            <div>
-                                <a href="#" class="btn-primary">
-                                    <span>Shop Now</span>
-                                    <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="md:w-1/2 w-full flex justify-center items-center relative">
-                            <img src="web/assets/images/all-img/chair.png" alt="">
-                            <div class="inline-block absolute top-0 right-0">
-                                <img src="web/assets/images/all-img/discount.png" alt="">
-                                <p class="absolute top-[33px] text-[#F05C52] text-4xl font-bold right-9">15%</p>
-                                <p class="absolute text-sm font-normal top-[68px] right-10">Discount</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="container px-3 md:px-5 flex flex-col md:flex-row items-center">
-                        <div class="md:w-1/2 w-full">
-                            <p class="text-gray-black text-sm tracking-[0.12em] mb-2">Welcome to chairy</p>
-                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6">Best Furniture Collection for your interior.</h1>
-                            <div>
-                                <a href="#" class="btn-primary">
-                                    <span>Shop Now</span>
-                                    <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M15.5 7.5L20 12M20 12L15.5 16.5M20 12H4" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="md:w-1/2 w-full flex justify-center items-center relative">
-                            <img src="web/assets/images/all-img/chair.png" alt="">
-                            <div class="inline-block absolute top-0 right-0">
-                                <img src="web/assets/images/all-img/discount.png" alt="">
-                                <p class="absolute top-[33px] text-[#F05C52] text-4xl font-bold right-9">15%</p>
-                                <p class="absolute text-sm font-normal top-[68px] right-10">Discount</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <br>
+
             </div>
-            <div class="swiper-button-next banner-slider-button"></div>
-            <div class="swiper-button-prev banner-slider-button"></div>
-            <div class="swiper-pagination"></div>
         </div>
-        <img src="web/assets/images/svg/banner-shapes.svg" alt="" class="xl:absolute xl:right-[189px] xl:bottom-[299px] hidden z-10">
     </section>
     <!-- banner section end -->
 
     <!-- feature and brand area start -->
-    <section class="-mt-[75px] relative z-50">
+    <section class="-mt-[75px] relative z-50" style="margin-top:-200px">
         <div class="container px-3 md:px-5 xl:px-0">
             <div class="bg-white shadow-[0px_24px_100px_rgba(22,25,50,0.07)] rounded-xl xl:py-[50px] xl:px-[70px] p-8 mb-[26px]">
                 <div class="grid grid-cols-1 xl:grid-cols-4 sm:grid-cols-2 gap-6">
@@ -1727,6 +1670,10 @@
     <script src="web/assets/plugins/js/select2.js"></script>
     <script src="web/assets/plugins/js/mixitUp.js"></script>
     <script src="web/js/app.js"></script>
+
+
+
+   
 </body>
 
 </html>
