@@ -36,35 +36,17 @@
                                     <path d="M13.3334 4.5L6.00002 11.8333L2.66669 8.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <span>Free shipping on all orders over $50</span>
+                            <span></span>
                         </p>
                         <div>
                             <ul class="flex gap-6 items-center">
-                                <li class="inline-flex items-center text-white-50 justify-center relative language">
-                                    <select class="custom-select" name="state">
-                                        <option value="AL">Eng</option>
-                                        <option value="WY">Bangla</option>
-                                    </select>
-                                </li>
+                               
                                 <li class="inline-flex items-center justify-center">
                                     <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">Faqs</a>
                                 </li>
                                 <li class="inline-flex items-center justify-center">
                                     <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">
-                                        <span>
-                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <g opacity="0.7" clip-path="url(#clip0_906_1673)">
-                                                    <path d="M7.99992 14.6667C11.6818 14.6667 14.6666 11.6819 14.6666 8C14.6666 4.3181 11.6818 1.33333 7.99992 1.33333C4.31802 1.33333 1.33325 4.3181 1.33325 8C1.33325 11.6819 4.31802 14.6667 7.99992 14.6667Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M8 5.33333V8" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M8 10.6667H8.00615" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
-                                                </g>
-                                                <defs>
-                                                    <clipPath id="clip0_906_1673">
-                                                        <rect width="16" height="16" fill="white" />
-                                                    </clipPath>
-                                                </defs>
-                                            </svg>
-                                        </span>
+                                       <span>Need Help</span>
                                         <span>Need Help</span>
                                     </a>
                                 </li>
@@ -457,10 +439,10 @@
                 <div class="swiper-slide"  >
                     <div class="container px-3 md:px-5 flex flex-col md:flex-row items-center">
                         <div class="md:w-1/2 w-full" >
-                            <p class="text-gray-black text-sm tracking-[0.12em] mb-2">Welcome to connect</p>
-                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6">Advertise your products and services</h1>
+                            <p class="text-gray-black text-sm tracking-[0.12em] mb-2" style="color: #f2f2f2">Welcome to connect</p>
+                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6" style="color:#f2f2f2">Advertise your products and services</h1>
                             <div>
-                                <a href="#" class=" btn btn-primary" style="margin-bottom:80px">
+                                <a href="#" class=" btn btn-primary " style="margin-bottom:80px;background-color:orange">
                                     <span>Discover more <i class="fa fa-arrow-right" style="font-size:12px"></i></span>
                                 </a>
                             </div>
