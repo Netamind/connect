@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Comforty - eCommerce HTML template</title>
+    <title>Connect - Advertise your product and services</title>
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +24,9 @@
 </head>
 
 <body class="font-display">
+
+
+
     <!-- header area start -->
     <header class="font-display">
         <div id="header-sticky" class="">
@@ -31,123 +34,70 @@
                 <div class="container px-3 md:px-5 xl:px-0">
                     <div class="py-3.5 flex justify-center sm:justify-between">
                         <p class="sm:flex gap-2 items-center text-[13px] leading-[110%] text-white opacity-70 hidden">
-                            <span>
-                                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13.3334 4.5L6.00002 11.8333L2.66669 8.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </span>
-                            <span></span>
+                            
+                            <span>Why choose connect?</span>
                         </p>
                         <div>
                             <ul class="flex gap-6 items-center">
                                
                                 <li class="inline-flex items-center justify-center">
-                                    <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">Faqs</a>
+                                    <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">Knowldge base</a>
                                 </li>
+
                                 <li class="inline-flex items-center justify-center">
-                                    <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">
-                                       <span>Need Help</span>
-                                        <span>Need Help</span>
-                                    </a>
+                                    <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">Privacy policy</a>
                                 </li>
+
+                                <li class="inline-flex items-center justify-center">
+                                    <a href="#" class="inline-flex gap-2 items-center text-white opacity-70 text-[13px] leading-[130%]">Terms and conditions</a>
+                                </li>
+                              
+                              
+                              
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div class="main-header bg-grayscales-500 lg:border-none border-b border-grayscales-700">
                 <div class="container px-3 md:px-5 xl:px-0">
                     <div class="flex justify-between items-center py-5">
                         <div>
                             <a href="index.html">
-                                <img src="web/assets/images/all-img/logo.png" alt="">
+                              <!--<img src="web/assets/images/logo.png" alt="">-->
+                              <span style="font-weight:20px;color:blue">CONNECT</span>
                             </a>
                         </div>
                         <div class="lg:max-w-[413px] lg:block hidden w-full">
                             <div class="relative">
-                                <input type="text" id="search" placeholder="search here..." class="block w-full bg-white focus:outline-none border-0 px-4 py-3 rounded-lg focus:ring-2 ring-[#029FAE]">
+                                <input type="text" id="search" placeholder="Search a business here...................." class="block w-full bg-white focus:outline-none border-0 px-4 py-3 rounded-lg focus:ring-2 ring-[#029FAE]">
                                 <label for="search" class="absolute right-4 top-3">
-                                    <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M10.5833 17.4167C14.6334 17.4167 17.9167 14.1334 17.9167 10.0833C17.9167 6.03325 14.6334 2.75 10.5833 2.75C6.53325 2.75 3.25 6.03325 3.25 10.0833C3.25 14.1334 6.53325 17.4167 10.5833 17.4167Z" stroke="#272343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M19.75 19.25L15.7625 15.2625" stroke="#272343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+
+                                <i class="fa fa-search" style="color:#bfbfbf;font-size:25px" ></i>
+
                                 </label>
                             </div>
                         </div>
+
                         <div class="lg:block hidden">
                             <ul class="flex items-center gap-3">
-                                <li class="relative">
-                                    <a href="#" class="inline-flex gap-2 bg-white rounded-lg p-[11px]" id="addToCart">
-                                        <span><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M2.52087 2.97916L4.42754 3.30916L5.31029 13.8261C5.3442 14.2399 5.5329 14.6258 5.83873 14.9066C6.14457 15.1875 6.54506 15.3427 6.96029 15.3413H16.9611C17.3587 15.3418 17.7431 15.1986 18.0436 14.9383C18.344 14.6779 18.5404 14.3178 18.5965 13.9242L19.4673 7.91266C19.4905 7.75279 19.482 7.58991 19.4422 7.43333C19.4024 7.27675 19.3322 7.12955 19.2354 7.00015C19.1387 6.87074 19.0175 6.76167 18.8786 6.67917C18.7397 6.59667 18.5859 6.54235 18.426 6.51933C18.3673 6.51291 4.73371 6.50833 4.73371 6.50833" stroke="#272343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path d="M12.948 9.89542H15.4899" stroke="#272343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.55786 18.5194C6.62508 18.5165 6.69219 18.5273 6.75515 18.551C6.81811 18.5748 6.87562 18.611 6.9242 18.6575C6.97279 18.7041 7.01145 18.76 7.03787 18.8219C7.06428 18.8837 7.0779 18.9503 7.0779 19.0176C7.0779 19.0849 7.06428 19.1515 7.03787 19.2134C7.01145 19.2753 6.97279 19.3312 6.9242 19.3777C6.87562 19.4243 6.81811 19.4605 6.75515 19.4842C6.69219 19.508 6.62508 19.5187 6.55786 19.5158C6.42942 19.5103 6.30808 19.4554 6.21914 19.3626C6.13021 19.2698 6.08057 19.1462 6.08057 19.0176C6.08057 18.8891 6.13021 18.7655 6.21914 18.6726C6.30808 18.5798 6.42942 18.5249 6.55786 18.5194Z" fill="#272343" stroke="#272343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.8988 18.5194C17.0312 18.5194 17.1583 18.5721 17.252 18.6657C17.3457 18.7594 17.3983 18.8865 17.3983 19.019C17.3983 19.1515 17.3457 19.2786 17.252 19.3723C17.1583 19.4659 17.0312 19.5186 16.8988 19.5186C16.7663 19.5186 16.6392 19.4659 16.5455 19.3723C16.4518 19.2786 16.3992 19.1515 16.3992 19.019C16.3992 18.8865 16.4518 18.7594 16.5455 18.6657C16.6392 18.5721 16.7663 18.5194 16.8988 18.5194Z" fill="#272343" stroke="#272343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
-                                        </span>
-                                        <span>Cart</span>
-                                        <span class="bg-dark-accents text-white rounded-full py-[3px] px-[9px] ml-1 inline-flex justify-center items-center text-[10px] leading-[100%]">2</span>
-                                    </a>
-                                    <div class="cart-content">
-                                        <ul class="p-6">
-                                            <li class="pb-4">
-                                                <div class="flex items-center justify-between">
-                                                    <div class="flex items-center gap-1">
-                                                        <div>
-                                                            <img src="web/assets/images/all-img/cart-01.png" alt="">
-                                                        </div>
-                                                        <div class="px-2">
-                                                            <h2 class="text-gray-black"><span>Isolate Sofa Chair</span> <span class="text-[#636270]">x5</span></h2>
-                                                            <p class="text-gray-black font-semibold mb-0">$150.00</p>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <button class="hover:bg-[#F0F2F3] bg-transparent p-2 hover:text-gray-black rounded-full text-[#9A9CAA] transition-all duration-500">
-                                                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 10L14 14M14 14L18 10M14 14L10 18M14 14L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="py-4">
-                                                <div class="flex items-center justify-between">
-                                                    <div class="flex items-center gap-1">
-                                                        <div>
-                                                            <img src="web/assets/images/all-img/cart-01.png" alt="">
-                                                        </div>
-                                                        <div class="px-2">
-                                                            <h2 class="text-gray-black"><span>Isolate Sofa Chair</span> <span class="text-[#636270]">x5</span></h2>
-                                                            <p class="text-gray-black font-semibold mb-0">$150.00</p>
-                                                        </div>
-                                                    </div>
-                                                    <div>
-                                                        <button class="hover:bg-[#F0F2F3] bg-transparent p-2 hover:text-gray-black rounded-full text-[#9A9CAA] transition-all duration-500">
-                                                            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M10 10L14 14M14 14L18 10M14 14L10 18M14 14L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                            </svg>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <div class="flex justify-between items-center py-2 mb-4">
-                                                <p class="text-[#636270] text-lg">2 Products</p>
-                                                <p class="text-gray-black text-xl font-medium">$250.00</p>
-                                            </div>
-                                            <div class="flex justify-between items-center">
-                                                <a href="shopping-cart.html" class="btn-transparent">View Cart</a>
-                                                <a href="checkout-shopping.html" class="btn-primary">Checkout</a>
-                                            </div>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="inline-flex items-center justify-center">
-                                    <a href="#" class="bg-white text-gray-black hover:text-[#007580] rounded-lg p-[11px]">
-                                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63262 10.6315C1.64903 7.56067 2.79762 4.05075 6.02245 3.01217C6.85867 2.74459 7.74676 2.68086 8.61262 2.82629C9.47849 2.97172 10.297 3.32208 10.9999 3.84817C12.3337 2.81692 14.2743 2.46858 15.9683 3.01217C19.1922 4.05075 20.349 7.56067 19.3664 10.6315C17.8355 15.499 10.9999 19.2482 10.9999 19.2482C10.9999 19.2482 4.21478 15.5558 2.63262 10.6315V10.6315Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </a>
-                                </li>
+
+
                                 <li class="relative">
                                     <button class="bg-white text-gray-black hover:text-[#007580] rounded-lg p-[11px] user-profile">
                                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -294,11 +244,15 @@
                         </ul>
                     </div>
                     <div>
-                        <p class="text-grayscales-900 inline-flex gap-2 items-center text-sm font-display"><span>Contact:</span><span class="text-secondary font-medium">(808) 555-0111</span></p>
+                        <a href="#" class="btn btn-primary">Get listed</a>
+                        <!--<p class="text-grayscales-900 inline-flex gap-2 items-center text-sm font-display"><span>Contact:</span><span class="text-secondary font-medium">(808) 555-0111</span></p>-->
                     </div>
                 </div>
             </div>
         </div>
+
+
+
         <!-- Mobile Menu Area Start -->
         <div class="nav-menu" id="nav-menu">
             <div class="flex justify-between  items-center px-3 py-4 mb-4">
@@ -308,7 +262,7 @@
                     </a>
                 </div>
                 <ul class="flex items-center gap-3">
-                    <li>
+            
                         <a href="#" class="inline-flex gap-2 bg-white rounded-lg p-[11px] relative">
                             <span>
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -426,9 +380,23 @@
             </div>
         </div>
         <!-- Mobile Menu Area End -->
+
+
+
+        
         <div class="overlay" id="overlay"></div>
     </header>
     <!-- header area end -->
+
+
+
+
+
+
+
+
+
+
 
     <!-- banner section start removed class in section  2xl:mx-[90px] rounded-bl-[20px] rounded-br-[20px] -->
     <section class="banner-section bg-grayscales-500 font-display relative z-10" style="background-image:url('web/assets/images/home.jpeg');  background-size: cover;   background-repeat: no-repeat;margin-bottom:200px;" >
@@ -440,7 +408,7 @@
                     <div class="container px-3 md:px-5 flex flex-col md:flex-row items-center">
                         <div class="md:w-1/2 w-full" >
                             <p class="text-gray-black text-sm tracking-[0.12em] mb-2" style="color: #f2f2f2">Welcome to connect</p>
-                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6" style="color:#f2f2f2">Advertise your products and services</h1>
+                            <h1 class="xl:text-[68px] text-xl md:text-3xl xl:leading-[110%] text-gray-black font-semibold mb-6" style="color:#f2f2f2">List your business and increase brand visibility</h1>
                             <div>
                                 <a href="#" class=" btn btn-primary " style="margin-bottom:80px;background-color:orange">
                                     <span>Discover more <i class="fa fa-arrow-right" style="font-size:12px"></i></span>
