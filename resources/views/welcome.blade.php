@@ -300,9 +300,19 @@
 
 
 
+    <!---
 
-    <!-- banner section start -->
-    <section class="banner-section 2xl:mx-[90px] bg-grayscales-500  font-display relative z-10">
+    lichess bg dip dark #262421
+    lichess bg right dark #4d4d4d
+     lichess grayrish white color  #bababa
+    liches orangesh color  #bf811d
+
+  
+  
+      -->
+
+    <!-- banner section start  -->
+    <section class="banner-section 2xl:mx-[90px] bg-grayscales-500   font-display relative z-10" >
         <div class="swiper bannerSwiper xl:pt-20 py-6 xl:pb-28 relative z-50"  style="background-image:url('web/images/home2.png');  background-repeat: no-repeat;  background-size:cover;">
             <div class="swiper-wrapper" >
 
