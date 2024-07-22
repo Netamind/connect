@@ -302,6 +302,7 @@
 
     <!---
 
+<<<<<<< HEAD
     lichess bg dip dark #262421
     lichess bg right dark #4d4d4d
      lichess grayrish white color  #bababa
@@ -313,6 +314,10 @@
 
     <!-- banner section start  -->
     <section class="banner-section 2xl:mx-[90px] bg-grayscales-500   font-display relative z-10" >
+=======
+    <!-- banner section start -->
+    <section class="banner-section  bg-grayscales-500  font-display relative z-10">
+>>>>>>> 014fc76498969cc6dd71946cfa5fdc71f96f8ea5
         <div class="swiper bannerSwiper xl:pt-20 py-6 xl:pb-28 relative z-50"  style="background-image:url('web/images/home2.png');  background-repeat: no-repeat;  background-size:cover;">
             <div class="swiper-wrapper" >
 
@@ -374,7 +379,7 @@
     <!-- feature products section start -->
     <section class="xl:pb-20 pb-8 md:pb-12">
         <div class="container px-3 md:px-5 xl:px-0">
-            <div class="flex flex-wrap justify-between items-center mb-10 px-2 xl:px-0" style="margin-top:20px">
+            <div class="flex flex-wrap justify-between items-center mb-10 px-2 xl:px-0" style="margin-top:40px">
                 <h2 class="text-gray-black xl:text-[32px] xl:leading-[110%] text-xl md:text-2xl font-semibold font-display">Featured Products</h2>
                 <div class="flex gap-[18px]">
                     <button class="featureSwiper-button-prev">
@@ -490,7 +495,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-03.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-03.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -521,7 +526,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-04.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-04.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -552,7 +557,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-03.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-03.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -583,7 +588,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-02.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-02.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -614,7 +619,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-01.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-01.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -647,6 +652,9 @@
     </section>
     <!-- feature products section end -->
 
+
+
+
     <!-- top categories product section start -->
     <section class="overflow-hidden relative lg:pb-20 md:pb-6 pb-3">
         <div class="container px-3 md:px-5 xl:px-0">
@@ -671,7 +679,7 @@
                     <div class="swiper-slide">
                         <div class="product-card-02">
                             <div class="product-thumb">
-                                <a href="products.html"><img src="./public/assets/images/all-img/t-product-01.png" alt=""></a>
+                                <a href="products.html"><img src="web/assets/images/all-img/t-product-01.png" alt=""></a>
                             </div>
 
                             <div class="product-info">
@@ -683,7 +691,7 @@
                     <div class="swiper-slide">
                         <div class="product-card-02">
                             <div class="product-thumb">
-                                <a href="products.html"><img src="./public/assets/images/all-img/t-product-02.png" alt=""></a>
+                                <a href="products.html"><img src="web/assets/images/all-img/t-product-02.png" alt=""></a>
                             </div>
 
                             <div class="product-info">
@@ -695,7 +703,7 @@
                     <div class="swiper-slide">
                         <div class="product-card-02">
                             <div class="product-thumb">
-                                <a href="products.html"><img src="./public/assets/images/all-img/t-product-03.png" alt=""></a>
+                                <a href="products.html"><img src="web/assets/images/all-img/t-product-03.png" alt=""></a>
                             </div>
 
                             <div class="product-info">
@@ -707,7 +715,7 @@
                     <div class="swiper-slide">
                         <div class="product-card-02">
                             <div class="product-thumb">
-                                <a href="products.html"><img src="./public/assets/images/all-img/t-product-02.png" alt=""></a>
+                                <a href="products.html"><img src="web/assets/images/all-img/t-product-02.png" alt=""></a>
                             </div>
 
                             <div class="product-info">
@@ -719,7 +727,7 @@
                     <div class="swiper-slide">
                         <div class="product-card-02">
                             <div class="product-thumb">
-                                <a href="products.html"><img src="./public/assets/images/all-img/t-product-03.png" alt=""></a>
+                                <a href="products.html"><img src="web/assets/images/all-img/t-product-03.png" alt=""></a>
                             </div>
 
                             <div class="product-info">
@@ -733,6 +741,27 @@
         </div>
     </section>
     <!-- top categories product section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 
 
     <!-- mixit up section start  -->
@@ -752,7 +781,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-01.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-01.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -784,7 +813,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-02.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-02.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -816,7 +845,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-03.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-03.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -848,7 +877,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-04.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-04.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -880,7 +909,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-04.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-04.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -912,7 +941,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-03.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-03.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -944,7 +973,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-02.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-02.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -976,7 +1005,7 @@
                     <div class="product-card">
                         <a href="product-details.html">
                             <div class="product-thumb">
-                                <img src="./public/assets/images/all-img/f-product-01.png" alt="">
+                                <img src="web/assets/images/all-img/f-product-01.png" alt="">
                                 <span class="badge new">New</span>
                             </div>
                             <div class="product-info">
@@ -1008,6 +1037,10 @@
     </section>
     <!-- mixit up section end  -->
 
+
+
+
+
     <!-- Testimonials section start -->
     <section class="overflow-hidden lg:py-20 sm:py-8 py-5 bg-[#F0F2F3]">
         <div class="container px-3 md:px-5 xl:px-0">
@@ -1038,7 +1071,7 @@
                             <div class="flex justify-between items-end">
                                 <div class="flex items-center flex-wrap gap-3">
                                     <div class="lg:w-[60px] lg:h-[60px] sm:w-12 sm:h-12 w-8 h-8">
-                                        <img src="./public/assets/images/all-img/testimonials.png" alt="" class="w-full h-full rounded-full">
+                                        <img src="web/assets/images/all-img/testimonials.png" alt="" class="w-full h-full rounded-full">
                                     </div>
                                     <div>
                                         <h4 class="xl:text-[20px] xl:leading-[140%] text-sm md:text-base text-gray-black capitalize font-medium font-display">Kristin Watson</h4>
@@ -1065,7 +1098,7 @@
                             <div class="flex justify-between items-end">
                                 <div class="flex items-center flex-wrap gap-3">
                                     <div class="lg:w-[60px] lg:h-[60px] sm:w-12 sm:h-12 w-8 h-8">
-                                        <img src="./public/assets/images/all-img/testimonials.png" alt="" class="w-full h-full rounded-full">
+                                        <img src="web/assets/images/all-img/testimonials.png" alt="" class="w-full h-full rounded-full">
                                     </div>
                                     <div>
                                         <h4 class="xl:text-[20px] xl:leading-[140%] text-sm md:text-base text-gray-black capitalize font-medium font-display">Esther Howard</h4>
@@ -1088,6 +1121,11 @@
         </div>
     </section>
     <!-- Testimonials section end -->
+
+
+
+
+
 
     <!-- recent products section start -->
     <section class="lg:py-20 py-6 sm:py-12">
@@ -1114,7 +1152,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-01.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-01.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -1145,7 +1183,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-02.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-02.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -1176,7 +1214,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-03.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-03.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -1207,7 +1245,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-04.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-04.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -1238,7 +1276,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-01.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-01.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -1269,7 +1307,7 @@
                         <div class="product-card">
                             <a href="product-details.html">
                                 <div class="product-thumb">
-                                    <img src="./public/assets/images/all-img/f-product-02.png" alt="">
+                                    <img src="web/assets/images/all-img/f-product-02.png" alt="">
                                     <span class="badge new">New</span>
                                 </div>
                                 <div class="product-info">
@@ -1310,7 +1348,7 @@
                         <div class="footer-widget max-w-[350px]">
                             <div class="lg:mb-6 mb-4">
                                 <a href="#">
-                                    <img src="./public/assets/images/all-img/logo.png" alt="">
+                                    <img src="web/assets/images/all-img/logo.png" alt="">
                                 </a>
                             </div>
                             <p class="lg:mb-6 mb-4 text-gray-black text-base">Vivamus tristique odio sit amet velit semper, eu posuere turpis interdum. Cras egestas purus </p>
