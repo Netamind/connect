@@ -10,4 +10,11 @@ class WebController extends Controller
 
         return view('web.home');
     }
+
+    public function registerview(){
+
+        return view('web.register');
+
+    }
+
 }
