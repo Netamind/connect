@@ -15,15 +15,28 @@ class CreateAppdataTable extends Migration
     {
         Schema::create('appdata', function (Blueprint $table) {
             $table->id();
-            $table->string('appname');
-            $table->string('apptitle');
-            $table->string('applogo');
-            $table->timestamps();
+            $table->string('appname')->default('NA');
+            $table->string('apptitle')->default('NA');
+            $table->string('applink')->default('NA');
+            $table->string('appaddress')->default('NA');
+            $table->string('appcontact')->default('NA');
+            $table->string('appemail')->default('NA');
+            $table->string('applogo')->default('NA');
+            $table->string('appletterhead')->default('NA');
+            $table->string('appterms')->default('NA');
         });
     }
 
     /**
      * Reverse the migrations.
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
      *
      * @return void
      */

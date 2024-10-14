@@ -134,7 +134,7 @@ data-category_id="221" class=" category-level-1"><a>Sports</a></li>
 </div></div>
 
 
-<input type="text" name="search" value="" inputmode="search" placeholder="Search a cartigory" class="search-input" data-category_id="0"/>
+<input type="text"   inputmode="search" placeholder="Search a cartigory" class="search-input" data-category_id="0"/>
 
 
 <button type="button" class="search-button" data-search-url="i"></button>

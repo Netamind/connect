@@ -17,12 +17,12 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('phone')->unique();
             $table->string('email')->unique();
-            $table->string('avator');
-            $table->string('role');
-            $table->string('blocked');
-            $table->string('email_verified');
+            $table->string('avator')->default('na');
+            $table->string('role')->default('user');
+            $table->string('blocked')->default('false');
+            $table->string('email_verified')->default('false');
             $table->string('password');
-            $table->timestamps();
+            $table->string('date');
         });
     }
 

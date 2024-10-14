@@ -15,3 +15,23 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'WebController@homeview');
 Route::get('register', 'WebController@registerview');
+Route::post('user-registration', 'UserRegistrationController@userregistration');
+Route::post('user-authentication', 'AuthController@userauthentication');
+Route::get('admin-dashboard', 'AdminController@admindashboard');
+
+Route::get('users', 'AdminController@users');
+Route::get('categories', 'AdminController@categories');
+Route::get('app-data', 'AdminController@appdata');
+
+Route::post('update-app-data-general', 'AdminController@updateappdatageneral');
+
+Route::post('update-app-data-contact', 'AdminController@updateappdatacontact');
+
+
+
+
+
+
+
+Route::get('user-dashboard', 'UserController@userdashboard');
+

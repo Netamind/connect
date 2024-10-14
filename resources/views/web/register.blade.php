@@ -5,8 +5,17 @@
     <!-- Cropper CSS -->
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.4/cropper.min.css'>
 
+
+
+
+
+
+<link rel="stylesheet" href="Admin320/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+<link rel="stylesheet" href="Admin320/plugins/toastr/toastr.min.css">
+
+
 <style>
-  .spinner {
+.spinner {
   border: 4px solid rgba(0, 0, 0, 0.1);
   border-top: 4px solid #f35800; /* orange color */
   border-radius: 50%;
@@ -54,6 +63,10 @@
   }
 }
 
+.disabled {
+  /*opacity: 0.5;*/
+ /* cursor: not-allowed;*/
+}
 
 
 
@@ -78,7 +91,7 @@ href="index9328.html?route=common/home">
 
 <i class="fa fa-home"></i></a></li><li>
     
-<a href="blog.html">Register</a></li></ul>
+<a href="register">Register</a></li></ul>
 
 
 
@@ -93,69 +106,46 @@ class="main-posts post-list">
 
 
 <div class="col-md-6">
-<form action="#" method="post" enctype="multipart/form-data" class="register-form form-horizontal">
-        <div id="account">
+<form action="user-registration" method="post" enctype="multipart/form-data" class="register-form form-horizontal" id="registrationForm">
+  @csrf
+    <div id="account">
           <legend>Your Personal Details</legend>
-          
-          <buttpn class="btn btn-primary" id="test">BBBBBB</buttpn>
           <div class="form-group required account-firstname">
-            <label class="col-sm-2 control-label" for="input-firstname">Full Name</label>
+            <label class="col-sm-2 control-label">Full Name</label>
             <div class="col-sm-10">
-              <input type="text" autocomplete="off" name="name" value="" placeholder="Enter your name" id="input-firstname" class="form-control" />
+              <input type="text"   name="name"  placeholder="Enter your name"  class="form-control" />
                </div>
           </div>
           <div class="form-group required account-lastname">
-            <label class="col-sm-2 control-label" for="input-lastname">Phone Number</label>
+            <label class="col-sm-2 control-label" >Phone Number</label>
             <div class="col-sm-10">
-              <input type="text" autocomplete="off"  name="phone" value="" placeholder="Enter your phone Number" id="input-lastname" class="form-control" />
+              <input type="text"    name="phone"  placeholder="Enter your phone Number"  class="form-control" />
                </div>
           </div>
           <div class="form-group required account-email">
-            <label class="col-sm-2 control-label" for="input-email">E-Mail</label>
+            <label class="col-sm-2 control-label" >E-Mail</label>
             <div class="col-sm-10">
-              <input type="email" autocomplete="off"  name="email" value="" placeholder="Enter your Email Address"  class="form-control" />
+              <input type="email"   name="email"  placeholder="Enter your Email Address"  class="form-control" />
                </div>
           </div>
-
-
-        
-
-
-
            </div>
-        <fieldset>
           <legend>Your Password</legend>
           <div class="form-group required">
             <label class="col-sm-2 control-label account-pass" for="input-password">Password</label>
             <div class="col-sm-10">
-              <input type="password" autocomplete="off"  name="password" value="" placeholder="Password" id="input-password" class="form-control" />
+              <input type="password"   name="password"  placeholder="Password" id="password" class="form-control" minLength="4"  />
                </div>
           </div>
           <div class="form-group required account-pass2">
             <label class="col-sm-2 control-label" for="input-confirm">Password Confirm</label>
             <div class="col-sm-10">
-              <input type="password" autocomplete="off"  name="confirm" value="" placeholder="Password Confirm" id="input-confirm" class="form-control" />
+              <input type="password"    name="password_confirmation"  placeholder="Password Confirm" id="comfirmpassword" minLength="4" class="form-control" />
                </div>
           </div>
         </fieldset>
-
-        
-                <div class="buttons">
-          <div class="pull-left">I have read and agree to the
-            
-           <a href="#" class="agree">
-            <b>Terms and conditions</b>
-            </a>
-
-            <input type="checkbox" name="agree" value="1" />
-
-
-            <a href="#" class="btn btn-primary" id="register" data-loading-text="<span>Submit</span>">Submit3</a>
-          
-
-
-
-
+          <div class="buttons">
+          <div class="pull-left">
+          <a href="#" class="btn btn-primary" id="registerBtn" data-loading-text="<span>Submit</span>">Submit</a>
           </div>
         </div>
     </form>
@@ -171,15 +161,16 @@ class="main-posts post-list">
 <br>
 <h2 class="title">Already have an account?</h2>
             <p><strong>Fill the form to login</strong></p>
-            <form action="authenticate-user" method="post" enctype="multipart/form-data" class="form-horizontal login-form">
-              <div class="form-group">
+            <form action="user-authentication" method="post" enctype="multipart/form-data" class="form-horizontal login-form" id="loginForm">
+             @csrf
+            <div class="form-group">
                 <label class="control-label" for="input-email">E-Mail Address</label>
-                <input type="text" name="email" value="" placeholder="E-Mail Address" id="input-email" autocomplete="off" class="form-control" />
+                <input type="text" name="email"  placeholder="E-Mail Address"  autocomplete="off" class="form-control" />
               </div>
               <div class="form-group">
                 <label class="control-label" for="input-password">Password</label>
-                <input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control" />
-                <div><a href="https://www.journal-theme.com/1/index.php?route=account/forgotten" target="_top">Forgotten Password</a></div></div>
+                <input type="password" name="password"  placeholder="Password"  class="form-control" />
+                <div><a href="#" target="_top">Forgotten Password</a></div></div>
               <div class="buttons">
                 <div class="pull-right">
                   <button type="submit" class="btn btn-primary" data-loading-text="<span>Login</span>"><span>Login</span></button>
@@ -207,8 +198,13 @@ class="main-posts post-list">
 
 <!-- jQuery -->
 
+<script src="Admin320/plugins/jquery/jquery.min.js"></script>
+
+
 <script src="Admin320/plugins/sweetalert2/sweetalert2.min.js"></script>
 <script src="Admin320/plugins/toastr/toastr.min.js"></script>
+
+
 <script>
 
 
@@ -220,161 +216,123 @@ var Toast = Swal.mixin({
       timer: 12000
     });
 
-
-
-    
-
-   $('body').on('click', '#test', function () {
-
-    toastr.error('Data failed to updated an error occured, make sure you enter quantity');
- });
-
  </script>
 
+  <script>
+  $(document).on("click", "#registerBtn", function(e) {
+  var self = $(this);
+  $(this).prop("disabled", true);
+  $(this).html('<div class="spinner"></div>');
+  var form = document.getElementById("registrationForm");
 
-<script>
-// vars
-let result = document.querySelector('.result'),
-img_result = document.querySelector('.img-result'),
-img_w = document.querySelector('.img-w'),
-img_h = document.querySelector('.img-h'),
-options = document.querySelector('.options'),
-save = document.querySelector('.save'),
-cropped = document.querySelector('.cropped'),
-dwn = document.querySelector('.download'),
-upload = document.querySelector('#file-input'),
+  e.preventDefault(); 
+  $.ajaxSetup({
+          headers: {
+              'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
+  $.ajax({
+      type:"post",
+      url: '/user-registration',
+      data: $(form).serialize(),
+      success:function(data) {
 
-// on change show image with crop options
-upload.addEventListener('change', e => {
-  if (e.target.files.length) {
-    // start file reader
-    const reader = new FileReader();
-    reader.onload = e => {
-      if (e.target.result) {
-        // create new image
-        let img = document.createElement('img');
-        img.id = 'image';
-        img.src = e.target.result;
-        // clean result before
-        result.innerHTML = '';
-        // append new image
-        result.appendChild(img);
-        // show save btn and options
-        save.classList.remove('hide');
-        options.classList.remove('hide');
-        // init cropper
-        cropper = new Cropper(img);
-      }
-    };
-    reader.readAsDataURL(e.target.files[0]);
-  }
-});
-
-// save on click
-save.addEventListener('click', e => {
-  e.preventDefault();
-  // get result to data uri
-  let imgSrc = cropper.getCroppedCanvas({
-    width: img_w.value // input value
-  }).toDataURL();
-  // remove hide class of img
-  cropped.classList.remove('hide');
-  img_result.classList.remove('hide');
-  // show image cropped
-  cropped.src = imgSrc;
-  dwn.classList.remove('hide');
-  dwn.download = 'imagename.png';
-  dwn.setAttribute('href', imgSrc);
-});
-
-</script>
-
-<script>
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-  // Add event listener to the register button
-  document.getElementById("register").addEventListener("click", function(e) {
-    e.preventDefault();
-
-    // Disable the button and show a spinner
-    var registerButton = document.getElementById("register");
-    registerButton.disabled = true;
-    registerButton.style.color = "red";
-    registerButton.innerHTML = '<div class="spinner"></div>';
-
-    // Get the CSRF token and form data
-    var csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
-    var form = document.getElementById('fullrectificationform');
-    var formData = new FormData(form);
-
-    // Create a new XMLHttpRequest object
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', '/retail-stock-fullrectification', true);
-    xhr.timeout = 3000; // 3 seconds
-    xhr.setRequestHeader('X-CSRF-TOKEN', csrfToken);
-
-    // Add event listener for the load event
-    xhr.onload = function() {
-      if (xhr.status === 200) {
-        // Check the response data
-        var data = xhr.responseTex..t;
-        if (data == 2) {
-          // Full rectification completed successfully
-          toastr.success('Full rectification completed successfully');
-          registerButton.disabled = false;
-          registerButton.style.color = "white";
-          registerButton.innerHTML = "Submit";
-          document.getElementById('fullrectifybtn').style.display = 'none';
-          location.reload();
-        } else if (data == 1) {
-          // Incorrect password entered
-          toastr.error('Incorrect password entered, please enter your password correctly');
-          registerButton.disabled = false;
-          registerButton.style.color = "white";
-          registerButton.innerHTML = "Submit";
-        } else if (data == 3) {
-          // No data found to rectify
-          toastr.error('No data found to rectify');
-          registerButton.disabled = false;
-          registerButton.style.color = "white";
-          registerButton.innerHTML = "Submit";
+        if(data==2){
+        toastr.success('Registration submitted successifully we have sent a link to your email to verify your account','Success')  
+        self.text("Submit")
+        self.prop("disabled", false)
+        form.reset();
+          
         }
-      } else {
-        // Display a generic error message
-        toastr.error('An unknown error occurred. Please try again later.');
-      }
-    };
 
-    // Add event listener for the timeout event
-    xhr.ontimeout = function() {
-      toastr.error('The request took too long to process. Please check your internet connection and try again.');
-      registerButton.disabled = false;
-      registerButton.style.color = "white";
-      registerButton.innerHTML = "Submit";
-    };
+        
+        if(data==3){
+        toastr.error('Unspecified error occured','Unspecified Error') 
+        self.text("Submit")
+        self.prop("disabled", false)
+        form.reset();
+        }
+        
+        
+      },
 
-    // Add event listener for the error event
-    xhr.onerror = function() {
-      toastr.error('A network error occurred. Please try again later.');
-    };
+      error:function(jqXHR, textStatus, errorThrown) {
 
-    // Send the request
-    xhr.send(formData);
+        console.log(textStatus); console.log(eeeeee)
+        
+        var errors = jqXHR.responseJSON.errors;
+        var errorPassage = '';
+        if(textStatus === 'timeout')
+          {   
+            toastr.error('It is taking longer to submit the data check your internet connection and try again','Timeout Error')  
+            form.reset();
+          }
+          else{
+          
+            $.each(errors, function(key, value) {
+                errorPassage += value + '\n';
+            });
+            toastr.error(errorPassage, 'Validation Errors', {
+                timeOut: 60000
+            });
+            self.text("Submit")
+            self.prop("disabled", false)
+            form.reset();
+          
+          
+          
+          }
+      },
+      timeout: 60000
   });
-});
+
+  })
+
+
+
+
+
+function countUnfilledInputs(inputIds) {
+  return inputIds.filter(id => document.getElementById(id).value === '').length;
+}
 
 
 </script>
 
 
 
+<!--js toastr notification-->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+<script>
+  @if(Session::has('message'))
+    var type = "{{ Session::get('alert-type', 'info') }}";
+    switch(type){
+        case 'info':
+            toastr.info("{{ Session::get('message') }}");
+            break;
+
+        case 'warning':
+            toastr.warning("{{ Session::get('message') }}");
+            break;
+
+        case 'success':
+            toastr.success("{{ Session::get('message') }}");
+            break;
+
+        case 'error':
+            toastr.error("{{ Session::get('message') }}");
+            break;
+    }
+  @endif
+</script>
+<!--js toastr notification--> 
 
 
 
 
 
-     
+
+
 
 @endsection
